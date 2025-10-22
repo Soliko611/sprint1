@@ -14,12 +14,18 @@
         <tbody class="board"></tbody>
     </table>
 
-    <div class="restart-btn"></div>
+    <!-- <div class="restart-btn"></div>
     <button onclick="onInit()"></button>
-    </div>
+    </div> -->
 
     <h2>Time:<span>0</span></h2>
     <h2>Bomb:<span>0</span></h2>
+    <div class="level-difficulty">
+        <button onclick="setDifficulty(4)">Beginner
+            <button onclick="setDifficulty(8)">Medium
+                <button onclick="setDifficulty(12)">Expert
+                </button>
+    </div>
     <div class="board-container"></div>
 
     <script src="js.util.js"></script>
