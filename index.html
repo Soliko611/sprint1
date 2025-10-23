@@ -9,27 +9,26 @@
 </head>
 
 <body onload="onInit()">
-    <h1>Minesweeper</h1>
-    <table>
-        <tbody class="board"></tbody>
-    </table>
+    <h1>Mine Sweeper</h1>
+    <table> 
+       <tbody class="board"></tbody>
+     </table>
 
-    <!-- <div class="restart-btn"></div>
-    <button onclick="onInit()"></button>
-    </div> -->
-
-    <h2>Time:<span>0</span></h2>
-    <h2>Bomb:<span>0</span></h2>
+  
+    <!-- <h2>Time:<span>0</span></h2>
+    <h2>Bomb:<span>0</span></h2> -->
     <div class="level-difficulty">
-        <button onclick="setDifficulty(4)">Beginner
-            <button onclick="setDifficulty(8)">Medium
-                <button onclick="setDifficulty(12)">Expert
-                </button>
+        <button onclick="setDifficulty(4,2)">Beginner</button>
+        <button onclick="setDifficulty(8,14)">Medium</button>
+        <button onclick="setDifficulty(12,32)">Expert</button>
+
     </div>
+
     <div class="board-container"></div>
 
     <script src="js.util.js"></script>
     <script src="js.game.js"></script>
+     <p>All rights reserved &#xA9; Soli Kolet</p>
 </body>
 
 </html>

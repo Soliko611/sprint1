@@ -24,9 +24,9 @@ table, td {
 .board td:hover {
     background-color: rgb(36, 91, 133);
 }
-.cell.mine {
-    background-color: red;
-}
+/* .cell.mine {
+    background-color: red; */
+/* } */
 button {
     background-color: aliceblue;
     
@@ -35,4 +35,9 @@ button {
     
     
 }
-
+.hidden {
+        display: none;
+}
+.revealed{
+    background-color: white;
+}
